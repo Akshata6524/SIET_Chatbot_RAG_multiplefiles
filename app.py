@@ -1,6 +1,6 @@
 import streamlit as st
 from rag_engine import load_base,ask_rag
-st.set_page_config(page_title = "SIET_Chatbot",layout = 'centered')
+st.set_page_config(page_title = "SIET_multi_Chatbot",layout = 'centered')
 st.title("Explore SIET with Chatbot")
 st.caption("Ask anything about college information,Courses,Placements,FAQs,Rules and regulation...")
 st.caption("RAG Pipeline with Multiple files")
