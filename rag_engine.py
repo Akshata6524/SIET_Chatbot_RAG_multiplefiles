@@ -23,7 +23,7 @@ def create_chunks(full_text,chunksize = 500,overlap=100):
     chunk = full_text[start:end] #[0:500]    [400:900]     [800:1300]
     if chunk.strip():
       chunks.append(chunk)
-    start = chunksize - overlap #500-100 = 400    900-100=800    1300-100=1200
+    start = end - overlap #500-100 = 400    900-100=800    1300-100=1200
   return chunks
 
 #Embedding:
